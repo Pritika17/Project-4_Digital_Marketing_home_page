@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem 10rem;
+}
+
+section[aria-label="navbar"] {
+  height: 10rem;
+}
+
+.navbar-container {
+  display: flex;
+}
+
+.navbar-container div:first-child {
+  height: inherit;
+  width: 36rem;
+}
+
+.navbar-container .grow-list {
+  width: 75rem;
+}
+
+.navbar-container .list {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 1rem 0 0 0;
+  gap: 5rem;
+}
+
+.navbar-container .list .list-item:first-child {
+  font-size: 1.5rem;
+  font-weight: 420;
+  color: #000000;
+}
+
+.navbar-container .list .list-item {
+  font-size: 1.5rem;
+  font-weight: 420;
+  color: rgba(128, 128, 128, 0.8);
+  cursor: pointer;
+}
+
+.navbar-container .list .list-item:hover{
+  color: black;
+  transition: .3s ease;
+}
+
+.navbar-container .button-group{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button{
+    border-color: transparent;
+    border-radius: 1rem;
+    padding: 1.2rem 3rem;
+    font-size: 1.5rem;
+    background-color: #6054b4;
+    cursor: pointer;
+    color: #eee;
+    font-weight: 500;
+    border-style: none;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container div:first-child{
+    width: 40vw;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner-container div .heading-text{
+    color: #402c64;
+    font-size: 6rem;
+    word-spacing: .6rem;
+    width: 30vw;
+    margin-bottom: 3rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.banner-container div .heading-text span{
+    color: #6054b4;
+}
+
+.banner-container div .description{
+    color: rgba(128, 128, 128, 0.812);
+    font-size: 1.9rem;
+    width: 28vw;
+    position: relative;
+    bottom: 9rem;
+    font-weight: 500;
+}
+
+.nav-button .btn{
+    border-color: transparent;
+}
+
+.banner-container div:last-child{
+    width: 60vw;
+    height: 59rem;
+}
+
+.banner-container div img{
+    width: 60vw;
+    height: 57rem;
+}
+
